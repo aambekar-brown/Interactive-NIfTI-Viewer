@@ -30,4 +30,13 @@ Install the required R packages by running:
 
 ```R
 install.packages(c("shiny", "shinyFiles", "neurobase", "oro.nifti", "fs"))
+```
 
+### Usage
+- Clone this repository or download the code files.
+- Open Interactive_NIfTI_Viewer.R in RStudio or your preferred R environment.
+- Run the app by executing:
+
+```R
+shiny::runApp('C:\\path_to_file\\Interactive_NIfTI_Viewer.R')
+```
