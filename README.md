@@ -31,7 +31,7 @@ install.packages(c("shiny", "shinyFiles", "neurobase", "oro.nifti", "fs"))
 ```
 
 ### Usage
-- Clone this repository or download the code files.
+- Clone this repository or download the code file.
 - Open Interactive_NIfTI_Viewer.R in RStudio or your preferred R environment.
 - Run the app by executing:
 
