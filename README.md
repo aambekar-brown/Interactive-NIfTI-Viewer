@@ -12,7 +12,7 @@ A Shiny app for viewing NIfTI (.nii, .nii.gz) neuroimaging files with axial, sag
 
 Below is a screenshot of the Interactive NIfTI Viewer:
 
-![Screenshot](https://raw.githubusercontent.com/username/repository/main/UI_Main.png "App Screenshot")
+![Screenshot](UI_Main.png "App Screenshot")
 
 
 
