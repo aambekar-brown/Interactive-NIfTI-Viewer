@@ -234,10 +234,10 @@ server <- function(input, output, session) {
     image(axial_slice, col = gray(0:64/64), axes = FALSE, main = paste("Axial (Z=", slice_num, ")"), asp = 1)
     
     # Plot sagittal view (rotate for proper orientation)
-    image(t(sagittal_slice), col = gray(0:64/64), axes = FALSE, main = paste("Sagittal (X=", slice_num, ")"), asp = 1)
+    image(sagittal_slice, col = gray(0:64/64), axes = FALSE, main = paste("Sagittal (X=", slice_num, ")"), asp = 1)
     
     # Plot coronal view (rotate for proper orientation)
-    image(t(coronal_slice), col = gray(0:64/64), axes = FALSE, main = paste("Coronal (Y=", slice_num, ")"), asp = 1)
+    image(coronal_slice, col = gray(0:64/64), axes = FALSE, main = paste("Coronal (Y=", slice_num, ")"), asp = 1)
     
     # Add overall title
     mtext(paste("Slice Number:", slice_num), outer = TRUE, cex = 1.5)
