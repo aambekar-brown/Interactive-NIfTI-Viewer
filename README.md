@@ -7,7 +7,6 @@ Below is a screenshot of the Interactive NIfTI Viewer:
 
 ![Screenshot](UI_main.png "App Screenshot")
 
-
 ## Features
 
 - Select one or more NIfTI files to view.
