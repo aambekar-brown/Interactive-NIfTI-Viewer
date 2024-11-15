@@ -8,9 +8,7 @@ A Shiny app for viewing NIfTI (.nii, .nii.gz) neuroimaging files with axial, sag
 - Navigate through slices using Previous/Next buttons or a slider.
 - Play/Pause functionality to automatically scroll through slices.
 
-## Screenshots
-
-Below is a screenshot of the Interactive NIfTI Viewer:
+## Screenshot
 
 ![Screenshot](UI_Main.png "App Screenshot")
 
